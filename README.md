@@ -3,7 +3,7 @@
 > Minimalist setup for SwayWM. 🚀
 
 ### 📸 Preview
-![Desktop Preview](https://raw.githubusercontent.com/hochazxz/Imgacu/refs/heads/main/20260201_12h51m16s_grim.png)
+![Desktop Preview](https://raw.githubusercontent.com/hochazxz/Imgacu/refs/heads/main/20260207_18h44m50s_grim.png)
 
 ### 🛠️ Quick Info
 - **WM:** SwayFX
