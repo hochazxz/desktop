@@ -1,0 +1,22 @@
+/* 1. Ẩn luôn mấy cái thanh chỉ báo (Pill) bao quanh icon */
+/* Lưu ý: Ẩn cái này là ông sẽ khó biết server nào đang có tin nhắn mới đó nha, nhưng vì ĐẸP thì hi sinh! */
+div[class*="pill"], 
+div[class*="item_"] span[class*="pill"] {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+}
+
+/* 2. Xử lý triệt để nếu nó là dạng Border (Viền) hoặc Box-Shadow (Đổ bóng) */
+/* Cái này nhắm thẳng vào cái khung bao quanh icon server */
+[class*="guilds"] [class*="wrapper"] {
+    border: none !important;
+    box-shadow: none !important; /* Tắt luôn hiệu ứng phát sáng nếu có */
+    background-color: transparent !important; /* Xóa nền thừa */
+}
+
+/* 3. (Khuyến mãi) Xóa luôn cái background xám xám khi rê chuột vào */
+[class*="circleIconButton"]:hover, 
+[class*="folderIconWrapper"]:hover {
+    background-color: transparent !important;
+}
